@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#banner{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+}
+.logo{
+	width: 120px;
+	position: absolute;
+	top: 5%;
+	left: 10%;
+}
+.banner-text{
+	text-align: center;
+	color: #fff;
+	padding-top: 180px;
+}
+.banner-text h1{
+	font-size:130px;
+}
+.banner-text p{
+	font-size: 100px;
+}
+#sidenav{
+	width: 250px;
+	height: 100vh;
+	position: fixed;
+	right: 0;
+	top: 0;
+	background: #009688;
+	z-index: 2;
+}
+
+nav ul li{
+	list-style: none;
+	margin: 50px 20px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+
+
+/*--educational details--*/
+
+
+
+
+#educatonal details{
+	width: 100%;
+	padding: 70px 0;
+}
+.title-text{
+	text-align: center;
+	padding-bottom: 70px;
+}
+table, th, td{
+	border: 1px solid black;
+}
+/*--skills and strength--*/
+
+
+
+
+
+.title-text{
+	width: 100%;
+	padding: 70px 0;
+	background: #efefef;
+} 
+
+
+
+/*--footer--*/
+
+
+
+
+#footer{
+	padding: 100px;
+	background: efefef;
+}
+.footer-row{
+	width: 80%;
+	margin: 0 ayto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.footer-right{
+	text-align: right;
+}
+.footer-row h1{
+	margin: 10px 0;
+}
+.footer-row p{
+	line-height: 35px;
+}
+
